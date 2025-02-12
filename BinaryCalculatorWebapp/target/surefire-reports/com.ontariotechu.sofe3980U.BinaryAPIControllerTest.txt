@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.ontariotechu.sofe3980U.BinaryAPIControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.226 s <<< FAILURE! - in com.ontariotechu.sofe3980U.BinaryAPIControllerTest
+testAddAPIWithInvalidInputs(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.247 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<200>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.testAddAPIWithInvalidInputs(BinaryAPIControllerTest.java:88)
+
+add2(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.add2(BinaryAPIControllerTest.java:66)
+
+testAddJsonAPIWithValidInputs(com.ontariotechu.sofe3980U.BinaryAPIControllerTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.ontariotechu.sofe3980U.BinaryAPIControllerTest.testAddJsonAPIWithValidInputs(BinaryAPIControllerTest.java:97)
+
